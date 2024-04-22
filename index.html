@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Admission Form</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+  <div class="container">
+    <h1>Student Admission Form</h1>
+    <form id="admissionForm">
+      <div class="form-group">
+        <label for="fullName">Name:</label>
+        <input type="text" id="fullName" name="fullName" required>
+      </div>
+
+      <div class="form-group">
+        <label for="regNumber">Registration Number:</label>
+        <input type="text" id="regNumber" name="regNumber">
+      </div>
+
+      <div class="form-group">
+        <label for="marks10th">10th Standard Marks:</label>
+        <input type="number" id="marks10th" name="marks10th">
+      </div>
+
+      <div class="form-group">
+        <label for="marks12th">12th Standard Marks:</label>
+        <input type="number" id="marks12th" name="marks12th">
+      </div>
+
+      <div class="form-group">
+        <label for="degreeName">Bachelor's Degree Name:</label>
+        <input type="text" id="degreeName" name="degreeName">
+      </div>
+
+      <div class="form-group">
+        <label for="collegeName">University/College Name:</label>
+        <input type="text" id="collegeName" name="collegeName">
+      </div>
+
+      <div class="form-group">
+        <label for="yearPassing">Year of Passing:</label>
+        <input type="number" id="yearPassing" name="yearPassing">
+      </div>
+
+      <div class="form-group">
+        <label for="cgpaPercentage">CGPA or Percentage:</label>
+        <input type="text" id="cgpaPercentage" name="cgpaPercentage">
+      </div>
+
+      <div class="form-group">
+        <label for="specialization">Specialization:</label>
+        <input type="text" id="specialization" name="specialization">
+      </div>
+
+      <div class="form-group">
+        <label for="gateScore">GATE Score:</label>
+        <input type="number" id="gateScore" name="gateScore">
+      </div>
+
+      <div class="form-group">
+        <label for="workExperience">Work Experience:</label>
+        <textarea id="workExperience" name="workExperience"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="sop">Statement of Purpose (SOP):</label>
+        <textarea id="sop" name="sop"></textarea>
+      </div>
+
+      <!-- <div class="form-group">
+        <label for="recommendationLetters">Recommendation Letters:</label>
+        <input type="file" id="recommendationLetters" name="recommendationLetters">
+      </div> -->
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone">
+      </div>
+
+      <div class="form-group">
+        <label for="address">Address:</label>
+        <textarea id="address" name="address"></textarea>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
